@@ -1,16 +1,28 @@
 html, body{
-    background-color: black;
+    background-color:white;
 }
+
 h1 {
     background-color:DodgerBlue;
-    text-align: center;
-
+    text-align: left;
   }
 
- card{
-    width: 15rem;   
- }
-
-  .p{
-
+.c{
+    display: none;
+    width: 10rem;   
 }
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
